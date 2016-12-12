@@ -1,3 +1,5 @@
+require "active_support/all"
+
 module Database
   class Base
     DBCONFIG_BEGIN_FLAG = "__CAPISTRANODB_CONFIG_BEGIN_FLAG__".freeze
